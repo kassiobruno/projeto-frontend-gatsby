@@ -1,25 +1,15 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { GlobalStyle } from "./styles/GlobalStyles"
 import Header from "./Header"
 
 
 const Layout = ({ children }) => {
-
-
   return (
     <>
-      <Header />
-    
-        <main>{children}</main>
-       
+      <GlobalStyle/>
+      <Header />    
+        <main>{children}</main>       
     </>
   )
 }
