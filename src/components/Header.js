@@ -19,7 +19,7 @@ const Header = () => {
       </NavMenu>
       <NavBtn>
         <Button primary="true" round="true" to="/viagens">
-          Reserve um voo
+          Reserve um vôo
         </Button>
       </NavBtn>
     </Nav>
@@ -29,7 +29,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-  background: red;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
