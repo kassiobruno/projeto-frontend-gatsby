@@ -5171,6 +5171,14 @@
     "lodash" "^4.17.21"
     "node-fetch" "^2.6.7"
 
+"gatsby-transformer-json@^5.0.0":
+  "integrity" "sha512-HKrbh40Lpwb4sdg2EIkjWnN6fzvQjickfq7tywoNCrKdgOlDMwqqxxNkfNfa9sDrU8Da9fvQY89gZ53JgvgZ4A=="
+  "resolved" "https://registry.npmjs.org/gatsby-transformer-json/-/gatsby-transformer-json-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "bluebird" "^3.7.2"
+
 "gatsby-transformer-sharp@^5.0.0":
   "integrity" "sha512-oAbgSrsmCb20+QQBDu5C6cQ1IVhvnTKl952rCJfSvttWE+9KUmKvt4TCgfuzs7OLpLoiscFlrLght0KmMcy4MA=="
   "resolved" "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-5.0.0.tgz"
