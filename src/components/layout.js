@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+//import { useStaticQuery, graphql } from "gatsby"
 import { GlobalStyle } from "./styles/GlobalStyles"
 import Header from "./Header"
 
